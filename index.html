@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Site</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  
+  <style>
+  
+  
+  #li2:hover{
+	background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display:block;}
+
+
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	
+	@media screen and (max-width:600px) 
+	{
+	.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display:block;}
+
+
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	}
+	.image
+	{
+      width:500px;
+      height:auto;	  
+	}
+	.images
+	{
+      width:500px;
+      height:700px;;	  
+	}
+	#myslide
+	{
+     float:left;	
+	}
+	@media screen and (max-width:600px)
+	{
+	  .images{
+	     width:100px;  
+	  }
+	
+	}
+
+  
+  
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-warning navbar-dark ">
+<div class="container">
+
+<a href="" class="navbar-brand text-dark">Company_Name</a>
+
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#nv" >
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="nv">
+     <ul class="navbar-nav ml-auto text-center ">
+        <li class="nav-items text-white">
+           <a href="" class="nav-link text-white"id="li2">HOME</a>
+        </li>
+		<li class="nav-items dropdown">
+		   <a href="" class="nav-link text-white dropbtn" data-toggle="dropdown"id="li2" >ABOUT US</a>
+		           
+		    
+  
+  <div class="dropdown-content" >
+    <a href="#">AIM</a>
+    <a href="#">BENEFITS</a>
+    <a href="#">FOUNDERS</a>
+  </div>
+        </li>
+         <li class="nav-items">
+           <a href="" class="nav-link text-white" id="li2">STARTUPS</a>
+        </li>
+
+
+      </ul>
+	  </div>
+	  </div>
+
+</nav>
+
+</div>
+<div class="carousel slide" id="myslide" data-ride="carousel" >
+
+         <div class="carousel-inner">
+		     <div class="carousel-item active">
+			 <img src="mug_hustle_inscription_work_118042_938x1668.jpg" class="image">
+			 
+			 </div>
+			 
+			 <div class="carousel-item ">
+			 <img src="iphone-smartphone-wallpaper-033-600x1067.jpg" class="image">
+			 </div>
+			 <div class="carousel-item ">
+			 <img src="brian-tracy-inspirational-quote.jpg" class="images">
+			 
+			 
+			 </div>
+			 
+			 
+			 </div>
+			 
+			 
+		
+
+		<ul class="carousel-indicators">
+	
+	<li data-target="#myslide" data-slide-to="0" class="active"></li>
+	<li data-target="#myslide" data-slide-to="1"></li>
+	<li data-target="#myslide" data-slide-to="2"></li>
+
+</ul>
+
+  <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+  	<span class="carousel-control-prev-icon"></span>
+  </a>
+<a href="#myslide" data-slide="next" class="carousel-control-next">
+  	<span class="carousel-control-next-icon"></span>
+  </a>
+	</div>
+       
+
+
+</body>
+</html>
